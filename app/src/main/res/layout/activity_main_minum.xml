@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sarah"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Menu Minuman"
+        android:id="@+id/textview"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/ShowImageView"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonChooseImage"
+        android:layout_below="@+id/ShowImageView"
+        android:layout_marginTop="20dp"
+        android:text="Choose Image"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImageNameEditText"
+        android:layout_below="@+id/HargaNameEditText"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_marginTop="20dp"
+        android:hint="Nama Minuman"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HargaNameEditText"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_marginTop="20dp"
+        android:hint="Harga Minuman"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonUploadImage"
+        android:layout_below="@+id/ImageNameEditText"
+        android:layout_marginTop="20dp"
+        android:text="Tambah Data"/>
+
+
+
+</RelativeLayout>

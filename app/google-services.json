@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "661929630241",
+    "firebase_url": "https://sarahfirebaserealtimeprojet.firebaseio.com",
+    "project_id": "sarahfirebaserealtimeprojet",
+    "storage_bucket": "sarahfirebaserealtimeprojet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661929630241:android:7fd6aee6c8e15f66",
+        "android_client_info": {
+          "package_name": "sarah.my.id.sarahfirebaserealtimeprojet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661929630241-s5pg1nscdi1fnusl1fik9no9eb4rvqrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sarah.my.id.sarahfirebaserealtimeprojet",
+            "certificate_hash": "63e94b25bf981a4ce266ee3f55141d7fae40b11a"
+          }
+        },
+        {
+          "client_id": "661929630241-kqit91j750bf1abgoadhmkdakgpgdtp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmOgPP--fvmNHFmzjOgc4UnPIA2oxB7s0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661929630241-kqit91j750bf1abgoadhmkdakgpgdtp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
